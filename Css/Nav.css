@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Quicksand', sans-serif; }
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1rem;
+    /* margin-left: 100px; */
+}
+
+.navbar .company-name {
+    font-weight: 70px;
+    size:30%;
+    margin-left: 40px;
+}
+.navbar .nav-link{
+    margin-right: 40px;
+}
+.navbar .nav-link a {
+    font-size: 0.8rem;
+    margin: 0 10px;
+    opacity: 0.7;
+    
+}
+
+.navbar .nav-link a:hover {
+    opacity: 1;
+}
+
+#profile {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+#profile .avatar {
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+#profile .information {
+    flex-grow: 1 0 50%;
+}
+.avatar img {
+    width: 40%;
+    border-radius: 5%;
+    border: 3px solid#ccc;
+    box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+  }
+#profile .information{
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 50px;
+}
+#profile .information button{
+    padding: 15px 40px;
+    cursor: pointer;
+    border: 3px solid khaki;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0rem;
+    border-radius: 1 px;
+    background-color: rgb(92, 76, 230);
+}
+#profile .information button:hover{
+    background-color: rgb(219, 65, 54);
+   
+}
+#profile .information h2{
+    font-size: 3.4rem;
+    letter-spacing: 5px;
+}
+#profile .information h3{
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-wrap: wrap;
+    opacity: .6;
+    margin-bottom: 10px;
+
+}
+#profile .information .address{
+    margin-bottom: 10px;
+}
+#profile .information .socials{
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+#profile .information .socials a{
+    margin-left: 10px;
+
+}
+.socials .facebook{
+    color:blue;
+}
+.socials .instagram{
+    color:purple;
+}
+.socials .linkend{
+    color:blue;
+}
+/* ----------------------------- */
+#about {
+    margin-top: 170px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 200px;
+  }
+  
+  #about .info {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 40px;
+    max-width: 50%;
+  }
+  
+  #about .info h3 {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    text-wrap: wrap;
+    opacity: 1;
+  }
+  #about .info p {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    text-wrap: wrap;
+    opacity: 1;
+  }
+  #about .image {
+    flex-grow: 1;
+    max-width: 50%;
+    padding-right: 40px;
+  }
+  
+  .image img {
+    max-width: 100%;
+  }
+  
+  .subject {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  .subject .frontend .s1 {
+    padding: 15px;
+    background-color: rgb(136, 32, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .subject .frontend .s1:hover {
+    box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+  }
+  .subject .backend .s2 {
+    padding: 15px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .subject .backend .s2:hover {
+    box-shadow: -1px 7px 36px 11px rgba(0, 0, 0, 0.32);
+  }
+  .btn {
+    margin-top: 40px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  /* .btn:hover {
+    box-shadow: -1px 7px 36px 11px rgba(179, 255, 2, 0.32);
+  } */
+  /* ------------------------------------------------------------ */
+  #eduction{
+    margin: 70px;
+  }
+  #eduction .info ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+  }
+  #eduction .info ul li{
+    display: flex;
+  }
+  #eduction .info.eduction-detail{
+    flex-grow: 1;
+    max-width: 50%;
+    text-align: right;
+    margin-right: 50px;
+  }
+  .Enducation h3{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-wrap: wrap;
+    opacity: 0.6;
+    margin-left: 1060px;
+
+  }
+  .Enducation-text{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr ;
+    padding: 50px 0px;
+    gap: 2rem;
+    margin-left: 250px;
+  }
+  .Enducation-text .text1{
+    margin-left: auto;
+    text-align: right;
+  }
+  .Enducation-text h1{
+    margin-left: auto;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .Enducation-text p{
+    margin-top: 0.7rem;
+    font-style: italic;
+  }
+  .text2 .feb {
+    margin-top: 3rem;
+  }
+  .text2 .Apr{
+    margin-top: 3rem;
+  }
+  /* section-4 */
+  .Experince h3{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-wrap: wrap;
+    opacity: 0.6;
+    margin-left: 40px;
+
+  }
+  .Experince-text{
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    gap: 2rem;
+    margin-top: 30px;
+    /* font-size: 1.3rem;
+    font-weight: 600; */
+  }
+  .Experince-text h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .experince-year{
+    text-align: right;
+  }
+  .Experince-General{
+    margin-right: 100px;
+  }
+  .Experince-General p{
+    margin-top: 0.7rem;
+    font-style: italic;
+  }
+  .Experince-General ul{
+    margin-top: 20px;
+  }
+  /* section-4 */
+  /* map */
+  .Container{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .Container h3 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    text-wrap: wrap;
+    opacity: 0.6;
+    /* justify-content: space-between; */
+  }
+  .Container .Info{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  #contact .message .form-group-50{
+    display: flex;
+  }
+  #contact .message .form-group-50 .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+  }
+  #contact .message .form-group-100 .form-group{
+    margin-right: 20px;
+    margin-bottom: 15px;
+  }
+  #contact .message .form-group-50 .form-group label
+  #contact .message .form-group-100 .form-group label{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  #contact .message .form-group-50 .form-group input,
+  #contact .message .form-group-100 .form-group input,
+  #contact .message .form-group-100 .form-group textarea
+  {
+    width: 100%;
+  }
+  .Info .message , .Info .insert-map{
+    flex-grow: 1;
+    max-width: 50%;
+  }
+  #contact .message input,
+  #contact .message textarea
+  {
+    border: 1px solid rgb(87, 87, 87);
+    padding: 5px 10px;
+    border-radius: 7px
+  }
+  #contact .message button{
+    padding: 10px 45px;
+    border: 1px;
+    cursor: pointer;
+    background: rgb(19, 82, 116);
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #contact .message button:hover{
+    background-color: rgb(43, 115, 154);
+  }
+footer{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
